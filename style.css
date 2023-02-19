@@ -1,6 +1,53 @@
-h1{
-    background-color: seagreen;
-    text-align: justify;
-    margin: 0%;
-    padding:2%;
+.navbar {
+    background-color: #E7F4FB;
 }
+
+.input-group {
+    margin-left: -40px;
+}
+
+.input-group>input {
+    text-align: center;
+    background-color: #F1F1F1;
+    margin-right: 0px;
+}
+
+.custom-btn {
+    background-color: #2293D4 !important;
+    border: none;
+}
+
+.geometric-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card-all {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+/* mobile responsive >>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media only screen and (max-width:688px) {
+    .geometric-cards {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px auto;
+
+    }
+
+    .card-all {
+        flex-direction: column !important;
+
+    }
+
+    .table {
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
+/* mobile responsive >>>>>>>>>>>>>>>>>>>>>>>>>> */
