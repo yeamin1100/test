@@ -63,9 +63,9 @@ document.getElementById("second-card").addEventListener("click", function (event
     const tableBody = document.getElementById("table-body");
     tr.innerHTML = `
         <th>${no}</th>
-                                <td>${secondTitle}</td>
-                                <td>${result}cm&sup2</td>
-                                <td><button class="btn custom-btn btn-secondary">Convert to m&sup2</button></td>
+                       <td>${secondTitle}</td>
+                       <td>${result}cm&sup2</td>
+                       <td><button class="btn custom-btn btn-secondary">Convert to m&sup2</button></td>
         `
     tableBody.appendChild(tr);
 

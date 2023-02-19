@@ -27,9 +27,9 @@ document.getElementById("fifth-card").addEventListener("click", function (event)
     const tableBody = document.getElementById("table-body");
     tr.innerHTML = `
         <th>${no}</th>
-                                <td>${pentagonTitle}</td>
-                                <td>${result.toFixed(2)}cm&sup2</td>
-                                <td><button class="btn custom-btn btn-secondary">Convert to m&sup2</button></td>
+                      <td>${pentagonTitle}</td>
+                      <td>${result.toFixed(2)}cm&sup2</td>
+                      <td><button class="btn custom-btn btn-secondary">Convert to m&sup2</button></td>
         `
     tableBody.appendChild(tr);
 

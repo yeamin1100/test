@@ -2,18 +2,16 @@
     background-color: #E7F4FB;
 }
 
-.input-group {
-    margin-left: -40px;
+.input-group{
+   margin-left: -40px;
 }
-
-.input-group>input {
+.input-group > input{
     text-align: center;
     background-color: #F1F1F1;
     margin-right: 0px;
 }
-
 .custom-btn {
-    background-color: #2293D4 !important;
+    background-color: #2293D4 ;
     border: none;
 }
 
@@ -36,14 +34,12 @@
     .geometric-cards {
         grid-template-columns: repeat(1, 1fr);
         margin: 0px auto;
-
+        
     }
-
-    .card-all {
-        flex-direction: column !important;
-
+    .card-all{
+        flex-direction: column;
+        
     }
-
     .table {
         margin-top: 30px;
         width: 100%;
